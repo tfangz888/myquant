@@ -11,7 +11,7 @@ if __name__ == '__main__':
     run(strategy_id='your strategy_id', 
         filename='gmclient.py',  # 保持与此文件名一致
         mode=MODE_BACKTEST, 
-        token='21ab3ffbdf89ee58ea9132e243d8164b3b53a47e',
+        token='填自己的tocken',
         backtest_start_time='2016-06-17 13:00:00', 
         backtest_end_time='2017-08-21 15:00:00',
         serv_addr='192.168.0.100:7001')
