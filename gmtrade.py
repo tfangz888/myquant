@@ -16,5 +16,7 @@ print(f"get_cash cash={cash}")
 poses = get_positions()
 print(f"get_positions poes={poses}")
 # 限价、定量委托买入浦发银行股票 
-data = order_volume(symbol='SHSE.600000', volume=10000, side=OrderSide_Buy, order_type=OrderType_Limit, position_effect=PositionEffect_Open, price=11)
+data = order_volume(symbol='SHSE.600000', volume=10000, side=OrderSide_Buy, order_type=OrderType_Limit, position_effect=PositionEffect_Open, price=11) # 限价单
+data= order_volume(symbol='SHSE.600000', volume=10000, side=OrderSide_Buy, order_type=OrderType_Market, position_effect=PositionEffect_Open, price=0) # 市价单
 data = order_volume(symbol='SZSE.000009', volume=10000, side=OrderSide_Buy, order_type=OrderType_Limit, position_effect=PositionEffect_Open, price=11)
+data = order_volume(symbol='SZSE.000009', volume=10000, side=OrderSide_Buy, order_type=OrderType_Market, position_effect=PositionEffect_Open, price=0) # 市价单
