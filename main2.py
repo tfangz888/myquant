@@ -15,3 +15,4 @@ if __name__ == '__main__':
         serv_addr='192.168.0.101:7001')
 
 
+# 别忘了先改.gmserv.json中的hostAddr
